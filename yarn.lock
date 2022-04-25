@@ -2803,6 +2803,13 @@
   resolved "https://registry.yarnpkg.com/@emotion/hash/-/hash-0.8.0.tgz#bbbff68978fefdbe68ccb533bc8cbe1d1afb5413"
   integrity sha512-kBJtf7PH6aWwZ6fka3zQ0p6SBYzx4fl1LoZXE2RrnYST9Xljm7WfKJrU4g/Xr3Beg72MLrp1AWNUmuYJTL7Cow==
 
+"@emotion/is-prop-valid@^0.7.3":
+  version "0.7.3"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/@emotion/is-prop-valid/-/is-prop-valid-0.7.3.tgz#a6bf4fa5387cbba59d44e698a4680f481a8da6cc"
+  integrity sha1-pr9PpTh8u6WdROaYpGgPSBqNpsw=
+  dependencies:
+    "@emotion/memoize" "0.7.1"
+
 "@emotion/is-prop-valid@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-1.1.0.tgz#29ef6be1e946fb4739f9707def860f316f668cde"
@@ -2816,6 +2823,11 @@
   integrity sha512-bW1Tos67CZkOURLc0OalnfxtSXQJMrAMV0jZTVGJUPSOd4qgjF3+tTD5CwJM13PHA8cltGW1WGbbvV9NpvUZPw==
   dependencies:
     "@emotion/memoize" "^0.7.4"
+
+"@emotion/memoize@0.7.1":
+  version "0.7.1"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/@emotion/memoize/-/memoize-0.7.1.tgz#e93c13942592cf5ef01aa8297444dc192beee52f"
+  integrity sha1-6TwTlCWSz17wGqgpdETcGSvu5S8=
 
 "@emotion/memoize@^0.7.4", "@emotion/memoize@^0.7.5":
   version "0.7.5"
@@ -3338,6 +3350,11 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.10.1.tgz#728ecd95ab207aab8a9a4e421f0422db329232be"
   integrity sha512-HnUhk1Sy9IuKrxEMdIRCxpIqPw6BFsbYSEUO9p/hNw5sMld/+3OLMWQP80F8/db9qsv3qUjs7ZR5bS/R+iinXw==
 
+"@reach/observe-rect@^1.1.0":
+  version "1.2.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/@reach/observe-rect/-/observe-rect-1.2.0.tgz#d7a6013b8aafcc64c778a0ccb83355a11204d3b2"
+  integrity sha1-16YBO4qvzGTHeKDMuDNVoRIE07I=
+
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.0"
   resolved "https://registry.npmjs.org/@rollup/plugin-babel/-/plugin-babel-5.3.0.tgz#9cb1c5146ddd6a4968ad96f209c50c62f92f9879"
@@ -3379,6 +3396,11 @@
   version "1.1.0"
   resolved "https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.1.0.tgz#7f698254aadf921e48dda8c0a6b304026b8a9323"
   integrity sha512-JLo+Y592QzIE+q7Dl2pMUtt4q8SKYI5jDrZxrozEQxnGVOyYE+GWK9eLkwTaeN9DDctlaRAQ3TBmzZ1qdLE30A==
+
+"@sap-theming/theming-base-content@11.1.38":
+  version "11.1.38"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/@sap-theming/theming-base-content/-/theming-base-content-11.1.38.tgz#d0a3c86f41602e4ec74544763931363f145d5649"
+  integrity sha1-0KPIb0FgLk7HRUR2OTE2PxRdVkk=
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.2"
@@ -4021,6 +4043,79 @@
     "@typescript-eslint/types" "5.11.0"
     eslint-visitor-keys "^3.0.0"
 
+"@ui5/webcomponents-base@1.3.0":
+  version "1.3.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/@ui5/webcomponents-base/-/webcomponents-base-1.3.0.tgz#32a4794584427bf060cf86d3ed633287387df073"
+  integrity sha1-MqR5RYRCe/Bgz4bT7WMyhzh98HM=
+  dependencies:
+    lit-html "2.0.1"
+
+"@ui5/webcomponents-fiori@^1.3.0":
+  version "1.3.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/@ui5/webcomponents-fiori/-/webcomponents-fiori-1.3.0.tgz#2a9a4f9d19caac4477d962ee5c0ac0bbb2cca39e"
+  integrity sha1-KppPnRnKrER32WLuXArAu7LMo54=
+  dependencies:
+    "@ui5/webcomponents" "1.3.0"
+    "@ui5/webcomponents-base" "1.3.0"
+    "@ui5/webcomponents-icons" "1.3.0"
+    "@ui5/webcomponents-theming" "1.3.0"
+    "@zxing/library" "^0.18.3"
+
+"@ui5/webcomponents-icons@1.3.0":
+  version "1.3.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/@ui5/webcomponents-icons/-/webcomponents-icons-1.3.0.tgz#c9f3bd6fb30c964452cdc49b1ec697b68c659edc"
+  integrity sha1-yfO9b7MMlkRSzcSbHsaXtoxlntw=
+  dependencies:
+    "@ui5/webcomponents-base" "1.3.0"
+
+"@ui5/webcomponents-localization@1.3.0":
+  version "1.3.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/@ui5/webcomponents-localization/-/webcomponents-localization-1.3.0.tgz#d41e1aaf11f8d31dc6f7b378d1756a61431ab089"
+  integrity sha1-1B4arxH40x3G97N40XVqYUMasIk=
+  dependencies:
+    "@ui5/webcomponents-base" "1.3.0"
+
+"@ui5/webcomponents-react-base@^0.23.0":
+  version "0.23.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/@ui5/webcomponents-react-base/-/webcomponents-react-base-0.23.0.tgz#69826b21569fe5a54ba72638e78cd85f43a237c9"
+  integrity sha1-aYJrIVaf5aVLpyY454zYX0OiN8k=
+  dependencies:
+    core-js "3.22.2"
+    intersection-observer "0.12.0"
+    resize-observer-polyfill "1.5.1"
+    smoothscroll-polyfill "0.4.4"
+
+"@ui5/webcomponents-react@^0.23.0":
+  version "0.23.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/@ui5/webcomponents-react/-/webcomponents-react-0.23.0.tgz#b43fe4e13d35d3ad4f251c84b48438c5a753a852"
+  integrity sha1-tD/k4T01061PJRyEtIQ4xadTqFI=
+  dependencies:
+    "@ui5/webcomponents-react-base" "^0.23.0"
+    clsx "1.1.1"
+    lit-html "2.0.1"
+    react-content-loader "6.2.0"
+    react-jss "10.9.0"
+    react-table "7.7.0"
+    react-virtual "2.10.4"
+
+"@ui5/webcomponents-theming@1.3.0":
+  version "1.3.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/@ui5/webcomponents-theming/-/webcomponents-theming-1.3.0.tgz#94ec102b73b211a34ed0c97a6910f8186757e25a"
+  integrity sha1-lOwQK3OyEaNO0Ml6aRD4GGdX4lo=
+  dependencies:
+    "@sap-theming/theming-base-content" "11.1.38"
+    "@ui5/webcomponents-base" "1.3.0"
+
+"@ui5/webcomponents@1.3.0", "@ui5/webcomponents@^1.3.0":
+  version "1.3.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/@ui5/webcomponents/-/webcomponents-1.3.0.tgz#ba577d5effe751b81521bd05ccd0736c3e3b0063"
+  integrity sha1-uld9Xv/nUbgVIb0FzNBzbD47AGM=
+  dependencies:
+    "@ui5/webcomponents-base" "1.3.0"
+    "@ui5/webcomponents-icons" "1.3.0"
+    "@ui5/webcomponents-localization" "1.3.0"
+    "@ui5/webcomponents-theming" "1.3.0"
+
 "@uxpin/merge-cli@^2.7.10":
   version "2.7.10"
   resolved "https://registry.npmjs.org/@uxpin/merge-cli/-/merge-cli-2.7.10.tgz#04c0d2333088ae659dae4e9da1bb9096a766e215"
@@ -4353,6 +4448,20 @@
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
+
+"@zxing/library@^0.18.3":
+  version "0.18.6"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/@zxing/library/-/library-0.18.6.tgz#717af8c6c1fd982865e21051afdd7b470ae6674c"
+  integrity sha1-cXr4xsH9mChl4hBRr917RwrmZ0w=
+  dependencies:
+    ts-custom-error "^3.0.0"
+  optionalDependencies:
+    "@zxing/text-encoding" "~0.9.0"
+
+"@zxing/text-encoding@~0.9.0":
+  version "0.9.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/@zxing/text-encoding/-/text-encoding-0.9.0.tgz#fb50ffabc6c7c66a0c96b4c03e3d9be74864b70b"
+  integrity sha1-+1D/q8bHxmoMlrTAPj2b50hktws=
 
 abab@^2.0.3, abab@^2.0.5:
   version "2.0.5"
@@ -5676,7 +5785,7 @@ cliui@^7.0.2:
     strip-ansi "^6.0.0"
     wrap-ansi "^7.0.0"
 
-clsx@^1.0.4, clsx@^1.1.1:
+clsx@1.1.1, clsx@^1.0.4, clsx@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
   integrity sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==
@@ -5946,6 +6055,11 @@ core-js-pure@^3.8.1:
   resolved "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.21.0.tgz#819adc8dfb808205ce25b51d50591becd615db7e"
   integrity sha512-VaJUunCZLnxuDbo1rNOzwbet9E1K9joiXS5+DQMPtgxd24wfsZbJZMMfQLGYMlCUvSxLfsRUUhoOR2x28mFfeg==
 
+core-js@3.22.2:
+  version "3.22.2"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/core-js/-/core-js-3.22.2.tgz#3ea0a245b0895fa39d1faa15fe75d91ade504a01"
+  integrity sha1-PqCiRbCJX6OdH6oV/nXZGt5QSgE=
+
 core-js@^3.19.2:
   version "3.21.0"
   resolved "https://registry.npmjs.org/core-js/-/core-js-3.21.0.tgz#f479dbfc3dffb035a0827602dd056839a774aa71"
@@ -6071,6 +6185,15 @@ css-has-pseudo@^3.0.4:
   integrity sha512-Vse0xpR1K9MNlp2j5w1pgWIJtm1a8qS0JwS9goFYcImjlHEmywP9VUF05aGBXzGpDJF86QXk4L0ypBmwPhGArw==
   dependencies:
     postcss-selector-parser "^6.0.9"
+
+css-jss@10.9.0:
+  version "10.9.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/css-jss/-/css-jss-10.9.0.tgz#1595c67bacf651100984a05763c1170d1bfa7127"
+  integrity sha1-FZXGe6z2URAJhKBXY8EXDRv6cSc=
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "10.9.0"
+    jss-preset-default "10.9.0"
 
 css-loader@^6.5.1:
   version "6.6.0"
@@ -8075,7 +8198,7 @@ hmac-drbg@^1.0.1:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hoist-non-react-statics@^3.3.1, hoist-non-react-statics@^3.3.2:
+hoist-non-react-statics@^3.2.0, hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.1, hoist-non-react-statics@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
   integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
@@ -8416,6 +8539,11 @@ internal-slot@^1.0.3:
     get-intrinsic "^1.1.0"
     has "^1.0.3"
     side-channel "^1.0.4"
+
+intersection-observer@0.12.0:
+  version "0.12.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/intersection-observer/-/intersection-observer-0.12.0.tgz#6c84628f67ce8698e5f9ccf857d97718745837aa"
+  integrity sha1-bIRij2fOhpjl+cz4V9l3GHRYN6o=
 
 ip@^1.1.0:
   version "1.1.5"
@@ -9495,7 +9623,7 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
-jss-plugin-camel-case@^10.8.2:
+jss-plugin-camel-case@10.9.0, jss-plugin-camel-case@^10.8.2:
   version "10.9.0"
   resolved "https://registry.npmjs.org/jss-plugin-camel-case/-/jss-plugin-camel-case-10.9.0.tgz#4921b568b38d893f39736ee8c4c5f1c64670aaf7"
   integrity sha512-UH6uPpnDk413/r/2Olmw4+y54yEF2lRIV8XIZyuYpgPYTITLlPOsq6XB9qeqv+75SQSg3KLocq5jUBXW8qWWww==
@@ -9504,7 +9632,16 @@ jss-plugin-camel-case@^10.8.2:
     hyphenate-style-name "^1.0.3"
     jss "10.9.0"
 
-jss-plugin-default-unit@^10.8.2:
+jss-plugin-compose@10.9.0:
+  version "10.9.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/jss-plugin-compose/-/jss-plugin-compose-10.9.0.tgz#4954583227db9b49bd2e29cd055dcc65b12cb19d"
+  integrity sha1-SVRYMifbm0m9LinNBV3MZbEssZ0=
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "10.9.0"
+    tiny-warning "^1.0.2"
+
+jss-plugin-default-unit@10.9.0, jss-plugin-default-unit@^10.8.2:
   version "10.9.0"
   resolved "https://registry.npmjs.org/jss-plugin-default-unit/-/jss-plugin-default-unit-10.9.0.tgz#bb23a48f075bc0ce852b4b4d3f7582bc002df991"
   integrity sha512-7Ju4Q9wJ/MZPsxfu4T84mzdn7pLHWeqoGd/D8O3eDNNJ93Xc8PxnLmV8s8ZPNRYkLdxZqKtm1nPQ0BM4JRlq2w==
@@ -9512,7 +9649,24 @@ jss-plugin-default-unit@^10.8.2:
     "@babel/runtime" "^7.3.1"
     jss "10.9.0"
 
-jss-plugin-global@^10.8.2:
+jss-plugin-expand@10.9.0:
+  version "10.9.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/jss-plugin-expand/-/jss-plugin-expand-10.9.0.tgz#96c902f5759fe189184f8418997659d61e927ffe"
+  integrity sha1-lskC9XWf4YkYT4QYmXZZ1h6Sf/4=
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "10.9.0"
+
+jss-plugin-extend@10.9.0:
+  version "10.9.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/jss-plugin-extend/-/jss-plugin-extend-10.9.0.tgz#b1163ceb25d908888b326e5b5fa780aaaed4884d"
+  integrity sha1-sRY86yXZCIiLMm5bX6eAqq7UiE0=
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "10.9.0"
+    tiny-warning "^1.0.2"
+
+jss-plugin-global@10.9.0, jss-plugin-global@^10.8.2:
   version "10.9.0"
   resolved "https://registry.npmjs.org/jss-plugin-global/-/jss-plugin-global-10.9.0.tgz#fc07a0086ac97aca174e37edb480b69277f3931f"
   integrity sha512-4G8PHNJ0x6nwAFsEzcuVDiBlyMsj2y3VjmFAx/uHk/R/gzJV+yRHICjT4MKGGu1cJq2hfowFWCyrr/Gg37FbgQ==
@@ -9520,7 +9674,7 @@ jss-plugin-global@^10.8.2:
     "@babel/runtime" "^7.3.1"
     jss "10.9.0"
 
-jss-plugin-nested@^10.8.2:
+jss-plugin-nested@10.9.0, jss-plugin-nested@^10.8.2:
   version "10.9.0"
   resolved "https://registry.npmjs.org/jss-plugin-nested/-/jss-plugin-nested-10.9.0.tgz#cc1c7d63ad542c3ccc6e2c66c8328c6b6b00f4b3"
   integrity sha512-2UJnDrfCZpMYcpPYR16oZB7VAC6b/1QLsRiAutOt7wJaaqwCBvNsosLEu/fUyKNQNGdvg2PPJFDO5AX7dwxtoA==
@@ -9529,7 +9683,7 @@ jss-plugin-nested@^10.8.2:
     jss "10.9.0"
     tiny-warning "^1.0.2"
 
-jss-plugin-props-sort@^10.8.2:
+jss-plugin-props-sort@10.9.0, jss-plugin-props-sort@^10.8.2:
   version "10.9.0"
   resolved "https://registry.npmjs.org/jss-plugin-props-sort/-/jss-plugin-props-sort-10.9.0.tgz#30e9567ef9479043feb6e5e59db09b4de687c47d"
   integrity sha512-7A76HI8bzwqrsMOJTWKx/uD5v+U8piLnp5bvru7g/3ZEQOu1+PjHvv7bFdNO3DwNPC9oM0a//KwIJsIcDCjDzw==
@@ -9537,7 +9691,7 @@ jss-plugin-props-sort@^10.8.2:
     "@babel/runtime" "^7.3.1"
     jss "10.9.0"
 
-jss-plugin-rule-value-function@^10.8.2:
+jss-plugin-rule-value-function@10.9.0, jss-plugin-rule-value-function@^10.8.2:
   version "10.9.0"
   resolved "https://registry.npmjs.org/jss-plugin-rule-value-function/-/jss-plugin-rule-value-function-10.9.0.tgz#379fd2732c0746fe45168011fe25544c1a295d67"
   integrity sha512-IHJv6YrEf8pRzkY207cPmdbBstBaE+z8pazhPShfz0tZSDtRdQua5jjg6NMz3IbTasVx9FdnmptxPqSWL5tyJg==
@@ -9546,7 +9700,25 @@ jss-plugin-rule-value-function@^10.8.2:
     jss "10.9.0"
     tiny-warning "^1.0.2"
 
-jss-plugin-vendor-prefixer@^10.8.2:
+jss-plugin-rule-value-observable@10.9.0:
+  version "10.9.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/jss-plugin-rule-value-observable/-/jss-plugin-rule-value-observable-10.9.0.tgz#fc48b70f6915a913618fdadb44dedce23982b32d"
+  integrity sha1-/Ei3D2kVqRNhj9rbRN7c4jmCsy0=
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "10.9.0"
+    symbol-observable "^1.2.0"
+
+jss-plugin-template@10.9.0:
+  version "10.9.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/jss-plugin-template/-/jss-plugin-template-10.9.0.tgz#27547e093e04b9dc9e900f35146e874bb196f575"
+  integrity sha1-J1R+CT4EudyekA81FG6HS7GW9XU=
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "10.9.0"
+    tiny-warning "^1.0.2"
+
+jss-plugin-vendor-prefixer@10.9.0, jss-plugin-vendor-prefixer@^10.8.2:
   version "10.9.0"
   resolved "https://registry.npmjs.org/jss-plugin-vendor-prefixer/-/jss-plugin-vendor-prefixer-10.9.0.tgz#aa9df98abfb3f75f7ed59a3ec50a5452461a206a"
   integrity sha512-MbvsaXP7iiVdYVSEoi+blrW+AYnTDvHTW6I6zqi7JcwXdc6I9Kbm234nEblayhF38EftoenbM+5218pidmC5gA==
@@ -9554,6 +9726,26 @@ jss-plugin-vendor-prefixer@^10.8.2:
     "@babel/runtime" "^7.3.1"
     css-vendor "^2.0.8"
     jss "10.9.0"
+
+jss-preset-default@10.9.0:
+  version "10.9.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/jss-preset-default/-/jss-preset-default-10.9.0.tgz#20919ee04e543b3502086001c4179ab15c012153"
+  integrity sha1-IJGe4E5UOzUCCGABxBeasVwBIVM=
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    jss "10.9.0"
+    jss-plugin-camel-case "10.9.0"
+    jss-plugin-compose "10.9.0"
+    jss-plugin-default-unit "10.9.0"
+    jss-plugin-expand "10.9.0"
+    jss-plugin-extend "10.9.0"
+    jss-plugin-global "10.9.0"
+    jss-plugin-nested "10.9.0"
+    jss-plugin-props-sort "10.9.0"
+    jss-plugin-rule-value-function "10.9.0"
+    jss-plugin-rule-value-observable "10.9.0"
+    jss-plugin-template "10.9.0"
+    jss-plugin-vendor-prefixer "10.9.0"
 
 jss@10.9.0, jss@^10.8.2:
   version "10.9.0"
@@ -9662,6 +9854,13 @@ lines-and-columns@^1.1.6:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
+
+lit-html@2.0.1:
+  version "2.0.1"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/lit-html/-/lit-html-2.0.1.tgz#63241015efa07bc9259b6f96f04abd052d2a1f95"
+  integrity sha1-YyQQFe+ge8klm2+W8Eq9BS0qH5U=
+  dependencies:
+    "@types/trusted-types" "^2.0.2"
 
 loader-runner@^2.4.0:
   version "2.4.0"
@@ -11483,6 +11682,15 @@ prompts@^2.4.2:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
+prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.8.1:
+  version "15.8.1"
+  resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
+  integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.13.1"
+
 prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
@@ -11491,15 +11699,6 @@ prop-types@^15.6.2, prop-types@^15.7.2:
     loose-envify "^1.4.0"
     object-assign "^4.1.1"
     react-is "^16.8.1"
-
-prop-types@^15.8.1:
-  version "15.8.1"
-  resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
-  integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
-  dependencies:
-    loose-envify "^1.4.0"
-    object-assign "^4.1.1"
-    react-is "^16.13.1"
 
 proxy-addr@~2.0.5:
   version "2.0.6"
@@ -11655,6 +11854,11 @@ react-app-polyfill@^3.0.0:
     regenerator-runtime "^0.13.9"
     whatwg-fetch "^3.6.2"
 
+react-content-loader@6.2.0:
+  version "6.2.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/react-content-loader/-/react-content-loader-6.2.0.tgz#cd8fee8160b8fda6610d0c69ce5aee7b8094cba6"
+  integrity sha1-zY/ugWC4/aZhDQxpzlrue4CUy6Y=
+
 react-dev-utils@^12.0.0:
   version "12.0.0"
   resolved "https://registry.npmjs.org/react-dev-utils/-/react-dev-utils-12.0.0.tgz#4eab12cdb95692a077616770b5988f0adf806526"
@@ -11684,6 +11888,11 @@ react-dev-utils@^12.0.0:
     shell-quote "^1.7.3"
     strip-ansi "^6.0.1"
     text-table "^0.2.0"
+
+react-display-name@^0.2.4:
+  version "0.2.5"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/react-display-name/-/react-display-name-0.2.5.tgz#304c7cbfb59ee40389d436e1a822c17fe27936c6"
+  integrity sha1-MEx8v7We5AOJ1DbhqCLBf+J5NsY=
 
 react-docgen@^4.1.0:
   version "4.1.1"
@@ -11733,6 +11942,23 @@ react-is@^17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
+
+react-jss@10.9.0:
+  version "10.9.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/react-jss/-/react-jss-10.9.0.tgz#102332a109d98510f0f812dd090d02f6045b5229"
+  integrity sha1-ECMyoQnZhRDw+BLdCQ0C9gRbUik=
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    "@emotion/is-prop-valid" "^0.7.3"
+    css-jss "10.9.0"
+    hoist-non-react-statics "^3.2.0"
+    is-in-browser "^1.1.3"
+    jss "10.9.0"
+    jss-preset-default "10.9.0"
+    prop-types "^15.6.0"
+    shallow-equal "^1.2.0"
+    theming "^3.3.0"
+    tiny-warning "^1.0.2"
 
 react-refresh@^0.11.0:
   version "0.11.0"
@@ -11794,6 +12020,11 @@ react-scripts@5.0.0:
   optionalDependencies:
     fsevents "^2.3.2"
 
+react-table@7.7.0:
+  version "7.7.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/react-table/-/react-table-7.7.0.tgz#e2ce14d7fe3a559f7444e9ecfe8231ea8373f912"
+  integrity sha1-4s4U1/46VZ90ROns/oIx6oNz+RI=
+
 react-transition-group@^4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.4.2.tgz#8b59a56f09ced7b55cbd53c36768b922890d5470"
@@ -11803,6 +12034,13 @@ react-transition-group@^4.4.2:
     dom-helpers "^5.0.1"
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
+
+react-virtual@2.10.4:
+  version "2.10.4"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/react-virtual/-/react-virtual-2.10.4.tgz#08712f0acd79d7d6f7c4726f05651a13b24d8704"
+  integrity sha1-CHEvCs1519b3xHJvBWUaE7JNhwQ=
+  dependencies:
+    "@reach/observe-rect" "^1.1.0"
 
 react@^17.0.2:
   version "17.0.2"
@@ -12160,6 +12398,11 @@ requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
+
+resize-observer-polyfill@1.5.1:
+  version "1.5.1"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
+  integrity sha1-DpAg3T0hAkRY1OvSfiPkAmmBBGQ=
 
 resolve-cwd@^3.0.0:
   version "3.0.0"
@@ -12537,6 +12780,11 @@ sha.js@^2.4.0, sha.js@^2.4.8:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
+shallow-equal@^1.2.0:
+  version "1.2.1"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/shallow-equal/-/shallow-equal-1.2.1.tgz#4c16abfa56043aa20d050324efa68940b0da79da"
+  integrity sha1-TBar+lYEOqINBQMk76aJQLDaedo=
+
 shebang-command@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-2.0.0.tgz#ccd0af4f8835fbdc265b82461aaf0c36663f34ea"
@@ -12592,6 +12840,11 @@ slash@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/slash/-/slash-4.0.0.tgz#2422372176c4c6c5addb5e2ada885af984b396a7"
   integrity sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==
+
+smoothscroll-polyfill@0.4.4:
+  version "0.4.4"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/smoothscroll-polyfill/-/smoothscroll-polyfill-0.4.4.tgz#3a259131dc6930e6ca80003e1cb03b603b69abf8"
+  integrity sha1-OiWRMdxpMObKgAA+HLA7YDtpq/g=
 
 snapdragon-node@^2.0.1:
   version "2.1.1"
@@ -13134,6 +13387,11 @@ svgo@^2.7.0:
     picocolors "^1.0.0"
     stable "^0.1.8"
 
+symbol-observable@^1.2.0:
+  version "1.2.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
+  integrity sha1-wiaIrtTqs83C3+rLtWFmBWCgCAQ=
+
 symbol-tree@^3.2.4:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
@@ -13256,6 +13514,16 @@ text-table@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
+
+theming@^3.3.0:
+  version "3.3.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/theming/-/theming-3.3.0.tgz#dacabf04aa689edde35f1e1c117ec6de73fbf870"
+  integrity sha1-2sq/BKpont3jXx4cEX7G3nP7+HA=
+  dependencies:
+    hoist-non-react-statics "^3.3.0"
+    prop-types "^15.5.8"
+    react-display-name "^0.2.4"
+    tiny-warning "^1.0.2"
 
 throat@^6.0.1:
   version "6.0.1"
@@ -13418,6 +13686,11 @@ tryer@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/tryer/-/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
   integrity sha512-c3zayb8/kWWpycWYg87P71E1S1ZL6b6IJxfb5fvsUgsf0S2MVGaDhDXXjDMpdCpfWXqptc+4mXwmiy1ypXqRAA==
+
+ts-custom-error@^3.0.0:
+  version "3.2.0"
+  resolved "https://artifactory.colortokens.com/artifactory/api/npm/npm/ts-custom-error/-/ts-custom-error-3.2.0.tgz#ff8f80a3812bab9dc448536312da52dce1b720fb"
+  integrity sha1-/4+Ao4Erq53ESFNjEtpS3OG3IPs=
 
 tsconfig-paths@^3.12.0:
   version "3.12.0"
@@ -13865,10 +14138,8 @@ watchpack@^1.7.4:
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha512-9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ==
   dependencies:
-    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
-    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
