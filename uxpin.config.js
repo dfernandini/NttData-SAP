@@ -5,6 +5,9 @@ module.exports = {
         name: 'SAP Components',
         include: [
           'src/components/SAPButton/SAPButton.js',
+          'src/components/SAPCalendar/SAPCalendar.js',
+          'src/components/SAPCheckBox/SAPCheckBox.js',
+          'src/components/SAPSegmentedButton/SAPSegmentedButton.js',
         ]
       },
       
